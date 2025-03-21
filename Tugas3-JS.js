@@ -35,7 +35,7 @@ function tampilkanProduk() {
     });
 }
 
-// Contoh penggunaan fungsi:
+// penggunaan fungsi:
 tambahProduk("flashdisk", 50000, 9); // Menambahkan produk baru
-hapusProduk(1); // Menghapus produk (tetapi tidak ada ID yang diberikan, bisa menyebabkan error)
+hapusProduk(1); // Menghapus produk (tetapi jika tidak ada ID yang diberikan, bisa menyebabkan error)
 tampilkanProduk(); // Menampilkan daftar produk
